@@ -1,0 +1,20 @@
+# robots.txt for MCM Digital
+# https://mcmdigital.com/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemaps
+Sitemap: https://mcmdigital.com/sitemap.xml
+
+# Bing / IndexNow
+# Key: your-indexnow-key
+
+# Crawl-delay (for non-Google bots)
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: YandexBot
+Crawl-delay: 1
