@@ -3,7 +3,7 @@ import { blogPosts } from "./blog/data";
 import { services } from "./services/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://mcmdigital.cl";
+  const baseUrl = "https://nexora.digital";
 
   const staticPages: MetadataRoute.Sitemap = [
     {

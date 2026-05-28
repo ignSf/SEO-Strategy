@@ -13,34 +13,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Web Development & SEO Services — High-Performance Sites | MCM Digital",
+  title: "Web Development & SEO Services — High-Performance Sites | Nexora Digital",
   description:
     "Professional web development and SEO services. We build fast, modern websites optimized to climb search rankings and convert visitors. Free consultation available.",
   keywords:
     "web development services, SEO services, web design agency, custom web development, affordable SEO, ecommerce website development, local SEO services",
   robots: "index, follow",
   alternates: {
-    canonical: "https://mcmdigital.cl/",
+    canonical: "https://nexora.digital/",
   },
   openGraph: {
-    title: "Web Development & SEO Services | MCM Digital",
+    title: "Web Development & SEO Services | Nexora Digital",
     description:
       "Custom websites + SEO strategies that deliver real rankings and revenue. Free audit included.",
-    url: "https://mcmdigital.cl/",
-    siteName: "MCM Digital",
+    url: "https://nexora.digital/",
+    siteName: "Nexora Digital",
     type: "website",
     images: [
       {
-        url: "https://mcmdigital.cl/og-cover.jpg",
+        url: "https://nexora.digital/og-cover.jpg",
         width: 1200,
         height: 630,
-        alt: "MCM Digital — Web Development & SEO Services",
+        alt: "Nexora Digital — Web Development & SEO Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Web Development & SEO Services | MCM Digital",
+    title: "Web Development & SEO Services | Nexora Digital",
     description:
       "We build and optimize websites for search engines. Free SEO audit included.",
   },
@@ -74,9 +74,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              name: "MCM Digital",
-              url: "https://mcmdigital.cl",
-              logo: "https://mcmdigital.cl/images/logo.png",
+              name: "Nexora Digital",
+              url: "https://nexora.digital",
+              logo: "https://nexora.digital/images/logo.png",
               description:
                 "Professional web development and SEO services. We build fast, modern websites optimized to climb search rankings and grow your business online.",
               telephone: "+56999792393",
@@ -90,8 +90,8 @@ export default function RootLayout({
               priceRange: "$$",
               openingHours: "Mo-Fr 09:00-18:00",
               sameAs: [
-                "https://linkedin.com/company/mcm-digital",
-                "",
+                "https://linkedin.com/company/nexoradigital",
+                "https://github.com/nexoradigital",
               ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
@@ -177,25 +177,25 @@ export default function RootLayout({
                   "@type": "ListItem",
                   position: 1,
                   name: "Home",
-                  item: "https://mcmdigital.cl/",
+                  item: "https://nexora.digital/",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: "Services",
-                  item: "https://mcmdigital.cl/services",
+                  item: "https://nexora.digital/services",
                 },
                 {
                   "@type": "ListItem",
                   position: 3,
                   name: "Blog",
-                  item: "https://mcmdigital.cl/blog",
+                  item: "https://nexora.digital/blog",
                 },
                 {
                   "@type": "ListItem",
                   position: 4,
                   name: "Contact",
-                  item: "https://mcmdigital.cl/contact",
+                  item: "https://nexora.digital/contact",
                 },
               ],
             }),

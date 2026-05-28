@@ -5,14 +5,14 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "About Us — Our Team and Mission | MCM Digital",
+  title: "About Us — Our Team and Mission | Nexora Digital",
   description:
-    "Learn about the MCM Digital team. We are a web development and SEO agency based in Valparaíso, Chile, helping businesses grow online with data-driven strategies.",
-  alternates: { canonical: "https://mcmdigital.cl/about" },
+    "Learn about the Nexora Digital team. We are a web development and SEO agency based in Valparaíso, Chile, helping businesses grow online with data-driven strategies.",
+  alternates: { canonical: "https://nexora.digital/about" },
   openGraph: {
-    title: "About MCM Digital",
-    description: "Meet the team behind MCM Digital — web development and SEO experts.",
-    url: "https://mcmdigital.cl/about",
+    title: "About Nexora Digital",
+    description: "Meet the team behind Nexora Digital — web development and SEO experts.",
+    url: "https://nexora.digital/about",
   },
 };
 
@@ -62,7 +62,7 @@ export default function AboutPage() {
                 <span className="gradient-text">Grow Online</span>
               </h1>
               <p className="text-muted text-lg leading-relaxed mb-6">
-                MCM Digital is a web development and SEO agency based in
+                Nexora Digital is a web development and SEO agency based in
                 Valparaíso, Chile. We work with businesses of all sizes to
                 build high-performance websites and improve their search
                 engine visibility.
@@ -84,7 +84,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl blur-2xl" />
               <Image
                 src="/team-photo.png"
-                alt="MCM Digital team collaborating in a modern office"
+                alt="Nexora Digital team collaborating in a modern office"
                 width={600}
                 height={450}
                 className="relative rounded-3xl shadow-2xl"

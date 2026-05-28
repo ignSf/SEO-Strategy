@@ -14,7 +14,7 @@ export const services: ServiceData[] = [
   {
     slug: "web-development",
     title: "Custom Web Development",
-    metaTitle: "Custom Web Development Services — Fast, Scalable Sites | MCM Digital",
+    metaTitle: "Custom Web Development Services — Fast, Scalable Sites | Nexora Digital",
     metaDescription:
       "Professional custom web development services using React, Next.js, and Node.js. We build fast, scalable websites tailored to your business. Free consultation.",
     headline: "Custom Web Development Services",
@@ -54,7 +54,7 @@ export const services: ServiceData[] = [
   {
     slug: "seo",
     title: "SEO Services",
-    metaTitle: "SEO Services — Data-Driven Search Optimization | MCM Digital",
+    metaTitle: "SEO Services — Data-Driven Search Optimization | Nexora Digital",
     metaDescription:
       "Comprehensive SEO services including technical audits, keyword strategy, content optimization, and link building. Improve your search rankings with data-driven strategies.",
     headline: "SEO Services That Drive Organic Growth",
@@ -99,7 +99,7 @@ export const services: ServiceData[] = [
   {
     slug: "web-design",
     title: "Web Design",
-    metaTitle: "Professional Web Design Services — Modern & Responsive | MCM Digital",
+    metaTitle: "Professional Web Design Services — Modern & Responsive | Nexora Digital",
     metaDescription:
       "Professional web design services focused on user experience, conversions, and brand identity. Responsive designs that look great on every device.",
     headline: "Professional Web Design That Converts",
@@ -139,7 +139,7 @@ export const services: ServiceData[] = [
   {
     slug: "ecommerce",
     title: "E-Commerce Development",
-    metaTitle: "E-Commerce Website Development — Custom Online Stores | MCM Digital",
+    metaTitle: "E-Commerce Website Development — Custom Online Stores | Nexora Digital",
     metaDescription:
       "Custom e-commerce development with Shopify, WooCommerce, or fully custom solutions. Secure payments, inventory management, and conversion-optimized checkout.",
     headline: "E-Commerce Development That Drives Sales",
@@ -179,7 +179,7 @@ export const services: ServiceData[] = [
   {
     slug: "local-seo",
     title: "Local SEO",
-    metaTitle: "Local SEO Services — Google Maps & Local Search | MCM Digital",
+    metaTitle: "Local SEO Services — Google Maps & Local Search | Nexora Digital",
     metaDescription:
       "Local SEO services to help your business appear in Google Maps and local search results. Google Business Profile optimization, citations, and review management.",
     headline: "Local SEO — Dominate Your Area",

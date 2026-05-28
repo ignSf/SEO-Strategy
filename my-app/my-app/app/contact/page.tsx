@@ -5,14 +5,14 @@ import Footer from "../components/Footer";
 import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Free SEO Audit & Consultation | MCM Digital",
+  title: "Contact Us — Free SEO Audit & Consultation | Nexora Digital",
   description:
-    "Get in touch with MCM Digital for a free SEO audit and website consultation. Based in Valparaíso, Chile — serving clients worldwide.",
-  alternates: { canonical: "https://mcmdigital.cl/contact" },
+    "Get in touch with Nexora Digital for a free SEO audit and website consultation. Based in Valparaíso, Chile — serving clients worldwide.",
+  alternates: { canonical: "https://nexora.digital/contact" },
   openGraph: {
-    title: "Contact MCM Digital",
+    title: "Contact Nexora Digital",
     description: "Free SEO audit and consultation. Let us help you grow online.",
-    url: "https://mcmdigital.cl/contact",
+    url: "https://nexora.digital/contact",
   },
 };
 
@@ -84,14 +84,14 @@ export default function ContactPage() {
                 <h3 className="font-semibold mb-4">Connect With Us</h3>
                 <div className="flex gap-3">
                   {[
-                    { name: "LinkedIn", url: "https://linkedin.com/company/mcm-digital" },
-                    { name: "GitHub", url: "#" },
+                    { name: "LinkedIn", url: "https://linkedin.com/company/nexoradigital" },
+                    { name: "GitHub", url: "https://github.com/nexoradigital" },
                     { name: "WhatsApp", url: "https://wa.me/56999792393" },
                   ].map((s) => (
                     <a
                       key={s.name}
                       href={s.url}
-                      target={s.name === "GitHub" ? undefined : "_blank"}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="px-4 py-2 rounded-xl bg-surface-light border border-surface-border text-sm text-muted hover:text-primary-light hover:border-primary/30 transition-all"
                     >

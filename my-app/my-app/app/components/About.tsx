@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section id="about" className="section-padding relative" aria-label="About MCM Digital">
+    <section id="about" className="section-padding relative" aria-label="About Nexora Digital">
       <div className="glow-orb w-[400px] h-[400px] bg-primary bottom-0 left-[-100px]" />
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -12,7 +12,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl blur-2xl" />
             <Image
               src="/team-photo.png"
-              alt="MCM Digital team working in a modern office"
+              alt="Nexora Digital team working in a modern office"
               width={600}
               height={450}
               className="relative rounded-3xl shadow-2xl"
@@ -32,7 +32,7 @@ export default function About() {
               <span className="gradient-text">Digital Growth</span>
             </h2>
             <p className="text-muted text-lg leading-relaxed mb-6">
-              MCM Digital is a full-service web development and SEO agency.
+              Nexora Digital is a full-service web development and SEO agency.
               We combine modern technology with data-driven SEO strategies to
               build websites that perform well in search and convert visitors
               into customers.

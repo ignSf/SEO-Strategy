@@ -19,16 +19,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!post) return {};
 
   return {
-    title: `${post.title} | MCM Digital Blog`,
+    title: `${post.title} | Nexora Digital Blog`,
     description: post.description,
     keywords: post.keywords.join(", "),
     alternates: {
-      canonical: `https://mcmdigital.cl/blog/${post.slug}`,
+      canonical: `https://nexora.digital/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://mcmdigital.cl/blog/${post.slug}`,
+      url: `https://nexora.digital/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
     },
@@ -297,16 +297,16 @@ export default async function BlogPostPage({ params }: PageProps) {
             datePublished: post.date,
             author: {
               "@type": "Organization",
-              name: "MCM Digital",
+              name: "Nexora Digital",
             },
             publisher: {
               "@type": "Organization",
-              name: "MCM Digital",
-              url: "https://mcmdigital.cl",
+              name: "Nexora Digital",
+              url: "https://nexora.digital",
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": `https://mcmdigital.cl/blog/${post.slug}`,
+              "@id": `https://nexora.digital/blog/${post.slug}`,
             },
           }),
         }}

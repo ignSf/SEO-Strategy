@@ -32,10 +32,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" id="logo-link" className="flex items-center gap-3 group">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center font-bold text-white text-lg group-hover:scale-110 transition-transform">
-              M
+              N
             </div>
             <span className="text-xl font-bold gradient-text">
-              MCM Digital
+              Nexora Digital
             </span>
           </Link>
 

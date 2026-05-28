@@ -22,12 +22,12 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
     title: service.metaTitle,
     description: service.metaDescription,
     alternates: {
-      canonical: `https://mcmdigital.cl/services/${service.slug}`,
+      canonical: `https://nexora.digital/services/${service.slug}`,
     },
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,
-      url: `https://mcmdigital.cl/services/${service.slug}`,
+      url: `https://nexora.digital/services/${service.slug}`,
     },
   };
 }
@@ -116,8 +116,8 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
               "name": service.title,
               "provider": {
                 "@type": "Organization",
-                "name": "MCM Digital",
-                "url": "https://mcmdigital.cl"
+                "name": "Nexora Digital",
+                "url": "https://nexora.digital"
               },
               "description": service.metaDescription,
               "areaServed": "Worldwide"

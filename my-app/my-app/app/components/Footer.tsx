@@ -1,5 +1,4 @@
 import Link from "next/link";
-import VisitCounter from "./VisitCounter";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -15,17 +14,14 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center font-bold text-white text-lg">
-                M
+                N
               </div>
-              <span className="text-xl font-bold gradient-text">MCM Digital</span>
+              <span className="text-xl font-bold gradient-text">Nexora Digital</span>
             </div>
             <p className="text-muted text-sm leading-relaxed mb-6">
               Professional web development and SEO services. We build fast,
               modern websites designed to climb search rankings and grow your business.
             </p>
-            <div className="mt-4">
-              <VisitCounter />
-            </div>
           </div>
 
           <nav aria-label="Services">
@@ -85,7 +81,7 @@ export default function Footer() {
 
         <div className="mt-14 pt-8 border-t border-surface-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted">
-            &copy; {currentYear} MCM Digital. All rights reserved.
+            &copy; {currentYear} Nexora Digital. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-muted">
             <a href="#" className="hover:text-primary-light transition-colors">Privacy Policy</a>
