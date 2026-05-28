@@ -3,7 +3,7 @@ import { blogPosts } from "./blog/data";
 import { services } from "./services/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://nexora.digital";
+  const baseUrl = "https://ign-digital.vercel.app";
 
   const staticPages: MetadataRoute.Sitemap = [
     {

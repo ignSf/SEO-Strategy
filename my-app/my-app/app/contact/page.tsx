@@ -5,14 +5,14 @@ import Footer from "../components/Footer";
 import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Free SEO Audit & Consultation | Nexora Digital",
+  title: "Contact Us — Free SEO Audit & Consultation | MCM Digital",
   description:
-    "Get in touch with Nexora Digital for a free SEO audit and website consultation. Based in Valparaíso, Chile — serving clients worldwide.",
-  alternates: { canonical: "https://nexora.digital/contact" },
+    "Get in touch with MCM Digital for a free SEO audit and website consultation. Based in Valparaíso, Chile — serving clients worldwide.",
+  alternates: { canonical: "https://ign-digital.vercel.app/contact" },
   openGraph: {
-    title: "Contact Nexora Digital",
+    title: "Contact MCM Digital",
     description: "Free SEO audit and consultation. Let us help you grow online.",
-    url: "https://nexora.digital/contact",
+    url: "https://ign-digital.vercel.app/contact",
   },
 };
 
@@ -84,8 +84,8 @@ export default function ContactPage() {
                 <h3 className="font-semibold mb-4">Connect With Us</h3>
                 <div className="flex gap-3">
                   {[
-                    { name: "LinkedIn", url: "https://linkedin.com/company/nexoradigital" },
-                    { name: "GitHub", url: "https://github.com/nexoradigital" },
+                    { name: "LinkedIn", url: "https://linkedin.com/company/ign-digital" },
+                    { name: "GitHub", url: "https://github.com/ign-digital" },
                     { name: "WhatsApp", url: "https://wa.me/56999792393" },
                   ].map((s) => (
                     <a

@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   title: "About Us — Our Team and Mission | MCM Digital",
   description:
     "Learn about the MCM Digital team. We are a web development and SEO agency based in Valparaíso, Chile, helping businesses grow online with data-driven strategies.",
-  alternates: { canonical: "https://mcmdigital.cl/about" },
+  alternates: { canonical: "https://ign-digital.vercel.app/about" },
   openGraph: {
     title: "About MCM Digital",
     description: "Meet the team behind MCM Digital — web development and SEO experts.",
-    url: "https://mcmdigital.cl/about",
+    url: "https://ign-digital.vercel.app/about",
   },
 };
 

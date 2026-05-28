@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Expert articles on web development, SEO strategies, and digital marketing. Learn how to improve your website performance and search engine rankings.",
   alternates: {
-    canonical: "https://mcmdigital.cl/blog",
+    canonical: "https://ign-digital.vercel.app/blog",
   },
   openGraph: {
     title: "Blog — Web Development & SEO Insights | MCM Digital",
     description:
       "Expert articles on web development, SEO, and digital growth strategies.",
-    url: "https://mcmdigital.cl/blog",
+    url: "https://ign-digital.vercel.app/blog",
   },
 };
 

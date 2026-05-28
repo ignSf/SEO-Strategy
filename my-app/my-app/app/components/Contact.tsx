@@ -13,7 +13,7 @@ export default function Contact() {
     <section
       id="contact"
       className="section-padding relative bg-surface/30"
-      aria-label="Contact Nexora Digital"
+      aria-label="Contact MCM Digital"
     >
       <div className="glow-orb w-[500px] h-[500px] bg-primary bottom-[-100px] left-[20%]" />
 
@@ -83,11 +83,11 @@ export default function Contact() {
                 {["LinkedIn", "GitHub"].map((s) => (
                   <a
                     key={s}
-                    href={`https://${s.toLowerCase()}.com/nexoradigital`}
+                    href={`https://${s.toLowerCase()}.com/ign-digital`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 rounded-xl bg-surface-light border border-surface-border text-sm text-muted hover:text-primary-light hover:border-primary/30 transition-all"
-                    aria-label={`Visit Nexora Digital on ${s}`}
+                    aria-label={`Visit MCM Digital on ${s}`}
                   >
                     {s}
                   </a>

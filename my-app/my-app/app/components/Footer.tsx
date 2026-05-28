@@ -16,7 +16,7 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center font-bold text-white text-lg">
                 N
               </div>
-              <span className="text-xl font-bold gradient-text">Nexora Digital</span>
+              <span className="text-xl font-bold gradient-text">MCM Digital</span>
             </div>
             <p className="text-muted text-sm leading-relaxed mb-6">
               Professional web development and SEO services. We build fast,
@@ -81,7 +81,7 @@ export default function Footer() {
 
         <div className="mt-14 pt-8 border-t border-surface-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted">
-            &copy; {currentYear} Nexora Digital. All rights reserved.
+            &copy; {currentYear} MCM Digital. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-muted">
             <a href="#" className="hover:text-primary-light transition-colors">Privacy Policy</a>

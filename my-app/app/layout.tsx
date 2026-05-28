@@ -20,18 +20,18 @@ export const metadata: Metadata = {
     "web development services, SEO services, web design agency, custom web development, affordable SEO, ecommerce website development, local SEO services",
   robots: "index, follow",
   alternates: {
-    canonical: "https://mcmdigital.cl/",
+    canonical: "https://ign-digital.vercel.app/",
   },
   openGraph: {
     title: "Web Development & SEO Services | MCM Digital",
     description:
       "Custom websites + SEO strategies that deliver real rankings and revenue. Free audit included.",
-    url: "https://mcmdigital.cl/",
+    url: "https://ign-digital.vercel.app/",
     siteName: "MCM Digital",
     type: "website",
     images: [
       {
-        url: "https://mcmdigital.cl/og-cover.jpg",
+        url: "https://ign-digital.vercel.app/og-cover.jpg",
         width: 1200,
         height: 630,
         alt: "MCM Digital — Web Development & SEO Services",
@@ -78,8 +78,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
               name: "MCM Digital",
-              url: "https://mcmdigital.cl",
-              logo: "https://mcmdigital.cl/images/logo.png",
+              url: "https://ign-digital.vercel.app",
+              logo: "https://ign-digital.vercel.app/images/logo.png",
               description:
                 "Professional web development and SEO services. We build fast, modern websites optimized to climb search rankings and grow your business online.",
               telephone: "+56999792393",
@@ -180,25 +180,25 @@ export default function RootLayout({
                   "@type": "ListItem",
                   position: 1,
                   name: "Home",
-                  item: "https://mcmdigital.cl/",
+                  item: "https://ign-digital.vercel.app/",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: "Services",
-                  item: "https://mcmdigital.cl/services",
+                  item: "https://ign-digital.vercel.app/services",
                 },
                 {
                   "@type": "ListItem",
                   position: 3,
                   name: "Blog",
-                  item: "https://mcmdigital.cl/blog",
+                  item: "https://ign-digital.vercel.app/blog",
                 },
                 {
                   "@type": "ListItem",
                   position: 4,
                   name: "Contact",
-                  item: "https://mcmdigital.cl/contact",
+                  item: "https://ign-digital.vercel.app/contact",
                 },
               ],
             }),

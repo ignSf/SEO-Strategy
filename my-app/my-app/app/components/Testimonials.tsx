@@ -3,7 +3,7 @@ const testimonials = [
     name: "Sarah Mitchell",
     role: "CEO, GreenLeaf Organics",
     quote:
-      "Nexora Digital completely transformed our online presence. Our organic traffic grew significantly in just 6 months, and most of our target keywords now appear on the first page. The ROI has been remarkable.",
+      "MCM Digital completely transformed our online presence. Our organic traffic grew significantly in just 6 months, and most of our target keywords now appear on the first page. The ROI has been remarkable.",
     initials: "SM",
   },
   {

@@ -5,17 +5,17 @@ import Footer from "../components/Footer";
 import { blogPosts } from "./data";
 
 export const metadata: Metadata = {
-  title: "Blog — Web Development & SEO Insights | Nexora Digital",
+  title: "Blog — Web Development & SEO Insights | MCM Digital",
   description:
     "Expert articles on web development, SEO strategies, and digital marketing. Learn how to improve your website performance and search engine rankings.",
   alternates: {
-    canonical: "https://nexora.digital/blog",
+    canonical: "https://ign-digital.vercel.app/blog",
   },
   openGraph: {
-    title: "Blog — Web Development & SEO Insights | Nexora Digital",
+    title: "Blog — Web Development & SEO Insights | MCM Digital",
     description:
       "Expert articles on web development, SEO, and digital growth strategies.",
-    url: "https://nexora.digital/blog",
+    url: "https://ign-digital.vercel.app/blog",
   },
 };
 

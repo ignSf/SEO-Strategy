@@ -19,16 +19,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!post) return {};
 
   return {
-    title: `${post.title} | Nexora Digital Blog`,
+    title: `${post.title} | MCM Digital Blog`,
     description: post.description,
     keywords: post.keywords.join(", "),
     alternates: {
-      canonical: `https://nexora.digital/blog/${post.slug}`,
+      canonical: `https://ign-digital.vercel.app/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://nexora.digital/blog/${post.slug}`,
+      url: `https://ign-digital.vercel.app/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
     },
@@ -297,16 +297,16 @@ export default async function BlogPostPage({ params }: PageProps) {
             datePublished: post.date,
             author: {
               "@type": "Organization",
-              name: "Nexora Digital",
+              name: "MCM Digital",
             },
             publisher: {
               "@type": "Organization",
-              name: "Nexora Digital",
-              url: "https://nexora.digital",
+              name: "MCM Digital",
+              url: "https://ign-digital.vercel.app",
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": `https://nexora.digital/blog/${post.slug}`,
+              "@id": `https://ign-digital.vercel.app/blog/${post.slug}`,
             },
           }),
         }}

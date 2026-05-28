@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   title: "Contact Us — Free SEO Audit & Consultation | MCM Digital",
   description:
     "Get in touch with MCM Digital for a free SEO audit and website consultation. Based in Valparaíso, Chile — serving clients worldwide.",
-  alternates: { canonical: "https://mcmdigital.cl/contact" },
+  alternates: { canonical: "https://ign-digital.vercel.app/contact" },
   openGraph: {
     title: "Contact MCM Digital",
     description: "Free SEO audit and consultation. Let us help you grow online.",
-    url: "https://mcmdigital.cl/contact",
+    url: "https://ign-digital.vercel.app/contact",
   },
 };
 

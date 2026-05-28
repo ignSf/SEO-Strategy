@@ -13,34 +13,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Web Development & SEO Services — High-Performance Sites | Nexora Digital",
+  title: "Web Development & SEO Services — High-Performance Sites | MCM Digital",
   description:
     "Professional web development and SEO services. We build fast, modern websites optimized to climb search rankings and convert visitors. Free consultation available.",
   keywords:
     "web development services, SEO services, web design agency, custom web development, affordable SEO, ecommerce website development, local SEO services",
   robots: "index, follow",
   alternates: {
-    canonical: "https://nexora.digital/",
+    canonical: "https://ign-digital.vercel.app/",
   },
   openGraph: {
-    title: "Web Development & SEO Services | Nexora Digital",
+    title: "Web Development & SEO Services | MCM Digital",
     description:
       "Custom websites + SEO strategies that deliver real rankings and revenue. Free audit included.",
-    url: "https://nexora.digital/",
-    siteName: "Nexora Digital",
+    url: "https://ign-digital.vercel.app/",
+    siteName: "MCM Digital",
     type: "website",
     images: [
       {
-        url: "https://nexora.digital/og-cover.jpg",
+        url: "https://ign-digital.vercel.app/og-cover.jpg",
         width: 1200,
         height: 630,
-        alt: "Nexora Digital — Web Development & SEO Services",
+        alt: "MCM Digital — Web Development & SEO Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Web Development & SEO Services | Nexora Digital",
+    title: "Web Development & SEO Services | MCM Digital",
     description:
       "We build and optimize websites for search engines. Free SEO audit included.",
   },
@@ -74,9 +74,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              name: "Nexora Digital",
-              url: "https://nexora.digital",
-              logo: "https://nexora.digital/images/logo.png",
+              name: "MCM Digital",
+              url: "https://ign-digital.vercel.app",
+              logo: "https://ign-digital.vercel.app/images/logo.png",
               description:
                 "Professional web development and SEO services. We build fast, modern websites optimized to climb search rankings and grow your business online.",
               telephone: "+56999792393",
@@ -90,8 +90,8 @@ export default function RootLayout({
               priceRange: "$$",
               openingHours: "Mo-Fr 09:00-18:00",
               sameAs: [
-                "https://linkedin.com/company/nexoradigital",
-                "https://github.com/nexoradigital",
+                "https://linkedin.com/company/ign-digital",
+                "https://github.com/ign-digital",
               ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
@@ -177,25 +177,25 @@ export default function RootLayout({
                   "@type": "ListItem",
                   position: 1,
                   name: "Home",
-                  item: "https://nexora.digital/",
+                  item: "https://ign-digital.vercel.app/",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: "Services",
-                  item: "https://nexora.digital/services",
+                  item: "https://ign-digital.vercel.app/services",
                 },
                 {
                   "@type": "ListItem",
                   position: 3,
                   name: "Blog",
-                  item: "https://nexora.digital/blog",
+                  item: "https://ign-digital.vercel.app/blog",
                 },
                 {
                   "@type": "ListItem",
                   position: 4,
                   name: "Contact",
-                  item: "https://nexora.digital/contact",
+                  item: "https://ign-digital.vercel.app/contact",
                 },
               ],
             }),

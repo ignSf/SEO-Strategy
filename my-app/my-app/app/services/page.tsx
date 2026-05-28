@@ -5,14 +5,14 @@ import Footer from "../components/Footer";
 import { services } from "./data";
 
 export const metadata: Metadata = {
-  title: "Professional Web Development & SEO Services | Nexora Digital",
+  title: "Professional Web Development & SEO Services | MCM Digital",
   description:
     "Explore our range of professional digital services including custom web development, search engine optimization, web design, e-commerce, and local SEO.",
-  alternates: { canonical: "https://nexora.digital/services" },
+  alternates: { canonical: "https://ign-digital.vercel.app/services" },
   openGraph: {
-    title: "Web Development & SEO Services | Nexora Digital",
+    title: "Web Development & SEO Services | MCM Digital",
     description: "Explore our range of professional digital services tailored to grow your business.",
-    url: "https://nexora.digital/services",
+    url: "https://ign-digital.vercel.app/services",
   },
 };
 

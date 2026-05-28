@@ -37,7 +37,7 @@ En esta guía master te explicamos paso a paso cómo indexar tu web desde cero y
 Antes de hacer nada, comprueba si Google ya conoce tu web. Es muy sencillo:
 
 1. Ve a Google.
-2. En la barra de búsqueda, escribe: \`site:tudominio.com\` (reemplaza "tudominio.com" por tu dirección real, por ejemplo, \`site:mcmdigital.cl\`).
+2. En la barra de búsqueda, escribe: \`site:tudominio.com\` (reemplaza "tudominio.com" por tu dirección real, por ejemplo, \`site:ign-digital.vercel.app\`).
 
 * **Si aparecen resultados:** ¡Felicidades! Google ya ha indexado algunas de tus páginas.
 * **Si dice "No se han encontrado resultados":** Tu sitio aún no está en el índice de Google. No te preocupes, lo solucionaremos ahora mismo.

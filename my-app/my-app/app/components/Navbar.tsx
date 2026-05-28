@@ -35,7 +35,7 @@ export default function Navbar() {
               N
             </div>
             <span className="text-xl font-bold gradient-text">
-              Nexora Digital
+              MCM Digital
             </span>
           </Link>
 

@@ -22,12 +22,12 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
     title: service.metaTitle,
     description: service.metaDescription,
     alternates: {
-      canonical: `https://mcmdigital.cl/services/${service.slug}`,
+      canonical: `https://ign-digital.vercel.app/services/${service.slug}`,
     },
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,
-      url: `https://mcmdigital.cl/services/${service.slug}`,
+      url: `https://ign-digital.vercel.app/services/${service.slug}`,
     },
   };
 }
@@ -117,7 +117,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
               "provider": {
                 "@type": "Organization",
                 "name": "MCM Digital",
-                "url": "https://mcmdigital.cl"
+                "url": "https://ign-digital.vercel.app"
               },
               "description": service.metaDescription,
               "areaServed": "Worldwide"

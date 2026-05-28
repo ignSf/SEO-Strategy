@@ -23,12 +23,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: post.description,
     keywords: post.keywords.join(", "),
     alternates: {
-      canonical: `https://mcmdigital.cl/blog/${post.slug}`,
+      canonical: `https://ign-digital.vercel.app/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://mcmdigital.cl/blog/${post.slug}`,
+      url: `https://ign-digital.vercel.app/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
     },
@@ -302,11 +302,11 @@ export default async function BlogPostPage({ params }: PageProps) {
             publisher: {
               "@type": "Organization",
               name: "MCM Digital",
-              url: "https://mcmdigital.cl",
+              url: "https://ign-digital.vercel.app",
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": `https://mcmdigital.cl/blog/${post.slug}`,
+              "@id": `https://ign-digital.vercel.app/blog/${post.slug}`,
             },
           }),
         }}
