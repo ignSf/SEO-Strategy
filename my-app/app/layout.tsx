@@ -44,6 +44,9 @@ export const metadata: Metadata = {
     description:
       "We build and optimize websites for search engines. Free SEO audit included.",
   },
+  verification: {
+    google: "Si7jcboB9DPsWkn4A9CcLPTxjicstDpFtY09-e32lQg",
+  },
   other: {
     "msvalidate.01": "YOUR_BING_VERIFICATION_CODE",
     "yandex-verification": "YOUR_YANDEX_CODE",
